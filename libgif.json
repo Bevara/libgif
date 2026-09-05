@@ -1,0 +1,20 @@
+{
+    "name": "libgif",
+    "description": "GIF image and animation decoder",
+    "filters": [
+        "gifdec"
+    ],
+    "help": "This filter decodes GIF images and animations using giflib: every frame is composited onto the canvas and output in turn, with the timing carried by the file.",
+    "support": [
+        "image",
+        "video"
+    ],
+    "sources": "https://bevara.ddns.net/sources/libgif.accessor",
+    "filter_source": {
+        "gifdec": "dec_gif.c"
+    },
+    "extension": {
+        "gif": "img"
+    },
+    "licence_required": false
+}
