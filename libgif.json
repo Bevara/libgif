@@ -1,5 +1,6 @@
 {
     "name": "libgif",
+    "version": "1.0.1",
     "description": "GIF image and animation decoder",
     "filters": [
         "gifdec"
